@@ -44,12 +44,9 @@ public class VerifyPhpTravels extends TestBase {
 		LocalDateTime now = LocalDateTime.now();
 		String time = dtf.format(now);
 		ValidationResult.validateData(actualtime, time);
-
-		click.clickElement(driver, LocatorType.CSSSELECTOR, properties.getProperty("loc.click.acceptpopup"));
-		click.clickElement(driver, LocatorType.CSSSELECTOR, properties.getProperty("loc.click.invoice"));
+		click.clickElement(driver, LocatorType.XPATH, properties.getProperty("loc.click.invoice"));
 		parentWindowHandler = driver.getWindowHandle();
 		subWindowHandler = null;
-
 		for (String childWindowHandle : driver.getWindowHandles()) {
 			if (!childWindowHandle.equals(parentWindowHandler)) {
 				driver.switchTo().window(childWindowHandle);
@@ -62,3 +59,4 @@ public class VerifyPhpTravels extends TestBase {
 		driver.switchTo().window(parentWindowHandler);
 	}
 }
+

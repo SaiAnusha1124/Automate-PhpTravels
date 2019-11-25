@@ -18,7 +18,6 @@ public class TestBase{
 	String url, browser, normal;
 	public static WebDriver driver;
 	public static LogReports log = new LogReports();
-
 	@BeforeTest
 	public void initializeBrowser() {
 		baseProperty = ReadLocatorsFile.loadProperty(ConstantsFilePaths.CONFIG_FILE);

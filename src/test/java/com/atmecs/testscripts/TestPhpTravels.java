@@ -12,6 +12,7 @@ import com.atmecs.actions.PageActions;
 import com.atmecs.actions.SendKeysAction;
 import com.atmecs.constants.ConstantsFilePaths;
 import com.atmecs.dataproviders.ReadExcelFile;
+import com.atmecs.reports.ExtentReport;
 import com.atmecs.testbase.TestBase;
 import com.atmecs.utils.LocatorType;
 import com.atmecs.utils.ReadLocatorsFile;
@@ -49,10 +50,11 @@ public class TestPhpTravels extends TestBase {
 		password = page.getdata_fromExcel("inputs-phptravels", "data", "password");
 		sendkeys.sendKeys(driver, LocatorType.CSSSELECTOR, properties.getProperty("loc.sendkey.password"), password);
 		click.clickElement(driver, LocatorType.CSSSELECTOR, properties.getProperty("loc.click.login"));
+		log.info("Succesfully loged in");
 		verify.verifyingHomePage();
 		log.info("Validated Travels Home Page");
 		verify.verifyingbooking();
 		log.info("Validated default Bookings and date");
-
+		ExtentReport.reportLog("loginHomePage", "failed");
 	}
 }

@@ -4448,3 +4448,64 @@ Shirt Color: Red Expected data : Shirt Size: M
 2019-11-22 18:43:18,587  INFO [main] LogReports:25 - Passed :  :  Actual data : 18:43:18 Expected data : 18:43:18
 2019-11-22 18:43:23,230  INFO [main] LogReports:25 - Passed :  :  Actual data : 3507 Expected data : 3507
 2019-11-22 18:43:23,328  INFO [main] LogReports:25 - Validated default Bookings and date
+2019-11-25 10:46:41,883  INFO [main] LogReports:25 - Chrome is Started
+2019-11-25 10:46:55,192  INFO [main] LogReports:25 - Passed :  :  Actual data : Hi, Demo User Expected data : Hi, Demo User
+2019-11-25 10:46:55,196  INFO [main] LogReports:25 - Validated Travels Home Page
+2019-11-25 10:46:55,271  INFO [main] LogReports:25 - Passed :  :  Actual data : BOOKINGS Expected data : BOOKINGS
+2019-11-25 10:46:55,446  INFO [main] LogReports:25 - Passed :  :  Actual data : 10:46:55 Expected data : 10:46:55
+2019-11-25 10:48:03,901  INFO [main] LogReports:25 - Chrome is Started
+2019-11-25 10:48:17,541  INFO [main] LogReports:25 - Passed :  :  Actual data : Hi, Demo User Expected data : Hi, Demo User
+2019-11-25 10:48:17,543  INFO [main] LogReports:25 - Validated Travels Home Page
+2019-11-25 10:48:17,613  INFO [main] LogReports:25 - Passed :  :  Actual data : BOOKINGS Expected data : BOOKINGS
+2019-11-25 10:48:17,777  INFO [main] LogReports:25 - Passed :  :  Actual data : 10:48:17 Expected data : 10:48:17
+2019-11-25 10:50:43,265  INFO [main] LogReports:25 - Chrome is Started
+2019-11-25 10:50:52,879  INFO [main] LogReports:25 - Succesfully loged in
+2019-11-25 10:51:42,751  INFO [main] LogReports:25 - Chrome is Started
+2019-11-25 10:51:51,853  INFO [main] LogReports:25 - Succesfully loged in
+2019-11-25 10:51:54,538  INFO [main] LogReports:25 - Passed :  :  Actual data : Hi, Demo User Expected data : Hi, Demo User
+2019-11-25 10:51:54,538  INFO [main] LogReports:25 - Validated Travels Home Page
+2019-11-25 10:53:41,796  INFO [main] LogReports:25 - Chrome is Started
+2019-11-25 10:53:51,346  INFO [main] LogReports:25 - Succesfully loged in
+2019-11-25 10:53:54,309  INFO [main] LogReports:25 - Passed :  :  Actual data : Hi, Demo User Expected data : Hi, Demo User
+2019-11-25 10:53:54,309  INFO [main] LogReports:25 - Validated Travels Home Page
+2019-11-25 10:53:54,386  INFO [main] LogReports:25 - Passed :  :  Actual data : BOOKINGS Expected data : BOOKINGS
+2019-11-25 10:53:54,550  INFO [main] LogReports:25 - Passed :  :  Actual data : 10:53:54 Expected data : 10:53:54
+2019-11-25 10:55:24,731  INFO [main] LogReports:25 - Chrome is Started
+2019-11-25 10:55:33,558  INFO [main] LogReports:25 - Succesfully loged in
+2019-11-25 10:55:36,787  INFO [main] LogReports:25 - Passed :  :  Actual data : Hi, Demo User Expected data : Hi, Demo User
+2019-11-25 10:55:36,791  INFO [main] LogReports:25 - Validated Travels Home Page
+2019-11-25 10:55:36,895  INFO [main] LogReports:25 - Passed :  :  Actual data : BOOKINGS Expected data : BOOKINGS
+2019-11-25 10:55:37,083  INFO [main] LogReports:25 - failed :  :  Actual data : 10:55:36 Expected data : 10:55:37
+2019-11-25 11:10:57,551  INFO [main] LogReports:25 - IE is Started
+2019-11-25 11:11:31,494  INFO [main] LogReports:25 - IE is Started
+2019-11-25 11:11:40,490  INFO [main] LogReports:25 - Succesfully loged in
+2019-11-25 11:12:53,547  INFO [main] LogReports:25 - Chrome is Started
+2019-11-25 11:13:04,569  INFO [main] LogReports:25 - Succesfully loged in
+2019-11-25 11:13:07,262  INFO [main] LogReports:25 - Passed :  :  Actual data : Hi, Demo User Expected data : Hi, Demo User
+2019-11-25 11:13:07,262  INFO [main] LogReports:25 - Validated Travels Home Page
+2019-11-25 11:13:07,344  INFO [main] LogReports:25 - Passed :  :  Actual data : BOOKINGS Expected data : BOOKINGS
+2019-11-25 11:13:07,508  INFO [main] LogReports:25 - Passed :  :  Actual data : 11:13:07 Expected data : 11:13:07
+2019-11-25 11:24:34,917  INFO [main] LogReports:25 - Chrome is Started
+2019-11-25 11:24:45,331  INFO [main] LogReports:25 - Succesfully loged in
+2019-11-25 11:24:48,230  INFO [main] LogReports:25 - Passed :  :  Actual data : Hi, Demo User Expected data : Hi, Demo User
+2019-11-25 11:24:48,231  INFO [main] LogReports:25 - Validated Travels Home Page
+2019-11-25 11:24:48,310  INFO [main] LogReports:25 - Passed :  :  Actual data : BOOKINGS Expected data : BOOKINGS
+2019-11-25 11:24:48,508  INFO [main] LogReports:25 - Passed :  :  Actual data : 11:24:48 Expected data : 11:24:48
+2019-11-25 11:24:55,924  INFO [main] LogReports:25 - failed :  :  Actual data : 0138 Expected data : 3507
+2019-11-25 11:24:56,034  INFO [main] LogReports:25 - Validated default Bookings and date
+2019-11-25 11:28:59,907  INFO [main] LogReports:25 - Chrome is Started
+2019-11-25 11:29:09,461  INFO [main] LogReports:25 - Succesfully loged in
+2019-11-25 11:29:12,263  INFO [main] LogReports:25 - Passed :  :  Actual data : Hi, Demo User Expected data : Hi, Demo User
+2019-11-25 11:29:12,264  INFO [main] LogReports:25 - Validated Travels Home Page
+2019-11-25 11:29:12,341  INFO [main] LogReports:25 - Passed :  :  Actual data : BOOKINGS Expected data : BOOKINGS
+2019-11-25 11:29:12,546  INFO [main] LogReports:25 - Passed :  :  Actual data : 11:29:12 Expected data : 11:29:12
+2019-11-25 11:29:20,062  INFO [main] LogReports:25 - failed :  :  Actual data : 0138 Expected data : 3507
+2019-11-25 11:29:20,167  INFO [main] LogReports:25 - Validated default Bookings and date
+2019-11-25 12:21:11,710  INFO [main] LogReports:25 - Chrome is Started
+2019-11-25 12:21:21,928  INFO [main] LogReports:25 - Succesfully loged in
+2019-11-25 12:21:24,408  INFO [main] LogReports:25 - Passed :  :  Actual data : Hi, Demo User Expected data : Hi, Demo User
+2019-11-25 12:21:24,409  INFO [main] LogReports:25 - Validated Travels Home Page
+2019-11-25 12:21:24,511  INFO [main] LogReports:25 - Passed :  :  Actual data : BOOKINGS Expected data : BOOKINGS
+2019-11-25 12:21:24,705  INFO [main] LogReports:25 - Passed :  :  Actual data : 12:21:24 Expected data : 12:21:24
+2019-11-25 12:21:32,155  INFO [main] LogReports:25 - failed :  :  Actual data : 0138 Expected data : 3507
+2019-11-25 12:21:32,267  INFO [main] LogReports:25 - Validated default Bookings and date

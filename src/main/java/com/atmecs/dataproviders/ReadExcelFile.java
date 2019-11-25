@@ -2,9 +2,7 @@ package com.atmecs.dataproviders;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-
 import org.apache.commons.io.FilenameUtils;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
@@ -30,23 +28,16 @@ public class ReadExcelFile {
 	}
 
 	private void verifyExcelWorkBook(String filePath) throws IOException {
-		try {
-			File file = new File(filePath);
-			fileInputStream = new FileInputStream(file);
-			fileExtensionName = FilenameUtils.getExtension(filePath);
-			if (fileExtensionName.equals("xlsx")) {
-				workBook = new XSSFWorkbook(fileInputStream);
-			} else if (fileExtensionName.equals("xls")) {
-				workBook = new HSSFWorkbook(fileInputStream);
-			}
-			fileInputStream.close();
-		} catch (FileNotFoundException fileNotFoundException) {
 
-			throw new FileNotFoundException("File doesn't exist in the given path: " + filePath);
-		} catch (IOException ioException) {
-
-			throw new IOException("File doesn't close properly: " + ioException.getMessage());
+		File file = new File(filePath);
+		fileInputStream = new FileInputStream(file);
+		fileExtensionName = FilenameUtils.getExtension(filePath);
+		if (fileExtensionName.equals("xlsx")) {
+			workBook = new XSSFWorkbook(fileInputStream);
+		} else if (fileExtensionName.equals("xls")) {
+			workBook = new HSSFWorkbook(fileInputStream);
 		}
+		fileInputStream.close();
 	}
 
 	public String getCellDataByColumnName(String string, String columnName, String string2) {
@@ -113,8 +104,6 @@ public class ReadExcelFile {
 			cellValue = "Invalid data type";
 			break;
 		}
-
 		return cellValue;
 	}
-
 }
